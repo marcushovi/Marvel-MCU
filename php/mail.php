@@ -7,10 +7,8 @@ if ( isset( $_POST[ 'submit' ] ) ) {
 
     $mailTo = "marekhovancak@mcu.studenthosting.sk";
     $headers = "From: " . $mailFrom;
-    $txt =
-
-        mail( $mailTo, $subject, $name, $headers );
-    header( "sadfsadf" );
+    $txt = "This is just a test email from www.marcushovi.com marvel-mcu project. DATA: " . $name . ", " . $mess . " ";
+    mail( $mailTo, $subject, $txt, $headers );
 }
 ?>
 <!DOCTYPE html>
