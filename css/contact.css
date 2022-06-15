@@ -1,0 +1,149 @@
+/*form container*/
+.form {
+    width: 100%;
+    padding: 10%;
+    display: inline-block;
+    position: relative;
+    transition: all .2s ease-out;
+}
+
+/*container of individual inputs where is input and label*/
+.indi {
+    width: 100%;
+    text-align: center;
+    padding: 4%;
+    font-size: .8em;
+}
+
+.indi:last-child {
+    padding: 10%;
+}
+
+label {
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFF;
+    padding: 3% 5%;
+    display: block;
+    text-align: left;
+}
+
+/*uinputs tex and email*/
+input[type=text], input[type=email] {
+    display: block;
+    width: 100%;
+    background: #FFF;
+}
+
+/*text field*/
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+/* inputs text , email and submit*/
+input[type=text], input[type=email], textarea, input[type=submit] {
+    border: none;
+    padding: 1.3em 1.5em;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    transition: all .2s ease-out;
+}
+
+/*input submit*/
+input[type=submit] {
+    background: #cb4335;
+    font-size: 1.2em;
+    padding: 1em 1.3em;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFF;
+    opacity: .9;
+    -webkit-box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*after send email background, container*/
+.after-back {
+    position: relative;
+    height: 70vh;
+    padding: 5%;
+}
+
+/*text form sender*/
+.after-mail {
+    width: 100%;
+    background: #cb4335;
+    border-radius: 10px;
+}
+
+.after-mail h1 {
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    transition: all .2s ease-out;
+
+}
+
+/* media 530px */
+@media only all and (min-width: 33.125em) {
+    .form {
+        padding: 3% 15%;
+    }
+
+    .after-mail h1 {
+        font-size: 2.1em;
+    }
+}
+
+/* media 768px (iPad)*/
+@media only all and (min-width: 48em) {
+    .form {
+        padding: 3% 15%;
+    }
+
+    .indi {
+        width: 45%;
+        float: left;
+        font-size: 1em;
+    }
+
+    .indi:last-child {
+        width: 100%;
+        padding: 0;
+    }
+
+    input[type=submit] {
+        padding: 2% 3%;
+    }
+
+    .after-mail h1 {
+        font-size: 3em;
+    }
+}
+
+/* media 1100px */
+@media only all and (min-width: 68.75em) {
+    .after-mail h1 {
+        font-size: 4em;
+    }
+}
+
+/* media 1280px */
+@media only all and (min-width: 80em) {
+    .indi {
+        width: 30%;
+        padding: 3%;
+    }
+
+    input[type=submit] {
+        padding: 1% 2%;
+    }
+
+    .after-mail h1 {
+        font-size: 5em;
+    }
+}

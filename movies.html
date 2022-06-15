@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="MCU,Marvel,Iron Man,Thor,Thanos,Spider Man" name="keywords">
+    <meta content="MCU" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Ubuntu|Gugi" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/custome.css" rel="stylesheet" type="text/css">
+    <link href="css/movies.css" rel="stylesheet" type="text/css">
+    <link href="img/icon/marvel-icon.png" rel="icon">
+    <title>Movies</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141841212-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push( arguments );
+        }
+
+        gtag( 'js', new Date() );
+
+        gtag( 'config', 'UA-141841212-1' );
+    </script>
+
+    <style>
+        .flex-desc::before {
+            display: none;
+        }
+
+        .flex-child:hover .flex-img {
+            transform: scale(1.06);
+            border-color: #cb4335;
+            -webkit-box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.6);
+            -moz-box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.6);
+        }
+
+        .flex-child:hover .movie-desc {
+            top: 96%;
+        }
+
+    </style>
+</head>
+<body>
+<!-- menu -->
+<nav id="nav">
+    <!-- brand logo -->
+    <div class="menu-logo" id="logo">
+        <a href="index.html" target="_self"><abbr title="Marvel Cinematic Universe"><img alt="Marvel"
+                                                                                         src="img/icon/marvel-logo.png"></abbr></a>
+    </div>
+    <!--"hamburger"-->
+    <div class="menu-toggle">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+    </div>
+    <!-- navigation -->
+    <div class="menu-container">
+        <ul class="menu">
+            <li><a class="menu-link" href="characters.html" target="_self"><span>Characters</span></a></li>
+            <li><a class="menu-link" href="movies.html" target="_self"><span>Movies</span></a></li>
+            <li><a class="menu-link" href="contact.html" target="_self"><span>Contact</span></a></li>
+            <li><a class="menu-link" href="about.html" target="_self"><span>About</span></a></li>
+        </ul>
+    </div>
+</nav>
+<!-- main content -->
+<main id="content">
+    <!-- Title movies with poster and description -->
+    <div class="info-box"
+         style="background-image :url('img/wallpaper/movies-wallpaper.jpg');  background-position: left;">
+        <div class="info-text">
+            <h1 class="info-title">Movies</h1>
+            <p class="info-desc">Journey into the cosmic depths of the mighty Marvel Cinematic Universe!</p>
+        </div>
+    </div>
+    <!-- flex box -->
+    <div class="flex-box">
+        <!-- indivudual parts of flex box (movies) -->
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <!-- poster of movie -->
+                <img alt="Avengers 4" class="flex-img movie-img" src="img/films/avengers4-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <!-- name of movie -->
+                    <h1>Avengers Endgame</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Captain Marvel" class="flex-img movie-img" src="img/films/captainmarvel-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Captain Marvel</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Avengers Infinity War" class="flex-img movie-img" src="img/films/avengers3-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Avengers Infinity War</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Ant-Man and the Wasp" class="flex-img movie-img" src="img/films/antman2-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Ant-Man and the Wasp</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Black Panther" class="flex-img movie-img" src="img/films/blackpanther-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Black Panther</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Thor: Ragnarok" class="flex-img movie-img" src="img/films/thor3-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Thor: Ragnarok</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Spider-Man Homecoming" class="flex-img movie-img"
+                     src="img/films/spidermanhomecoming-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Spider-Man Homecoming</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Guardians of the Galaxy Vol. 2" class="flex-img movie-img"
+                     src="img/films/guardians2-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Guardians of the Galaxy Vol. 2</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Doctor Strange" class="flex-img movie-img" src="img/films/doctorstrange-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Doctor Strange</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Captain America Civil War" class="flex-img movie-img"
+                     src="img/films/captainamerica3-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Captain America Civil War</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Ant-Man" class="flex-img movie-img" src="img/films/antman-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Ant-Man</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Avengers Age of Ultron" class="flex-img movie-img" src="img/films/avengers2-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Avengers Age of Ultron</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Guardians of the Galaxy" class="flex-img movie-img" src="img/films/guardians1-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Guardians of the Galaxy</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Captain America the Winter Soldier" class="flex-img movie-img"
+                     src="img/films/captainamerica2-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Captain America the Winter Soldier</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Thor The Dark World" class="flex-img movie-img" src="img/films/thor2-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Thor The Dark World</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Iron Man 3" class="flex-img movie-img" src="img/films/ironman3-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Iron Man 3</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="The Avengers" class="flex-img movie-img" src="img/films/avengers1-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>The Avengers</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Captain America the First Avenger" class="flex-img movie-img"
+                     src="img/films/captainamerica1-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Captain America the First Avenger</h1>
+                </div>
+            </a>
+        </div>
+
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="Thor" class="flex-img movie-img" src="img/films/thor1-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Thor</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="iron-man 2" class="flex-img movie-img" src="img/films/ironman2-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Iron Man 2</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="The Incredible Hulk" class="flex-img movie-img" src="img/films/hulk1-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>The Incredible Hulk</h1>
+                </div>
+            </a>
+        </div>
+        <div class="flex-child movie-child">
+            <a href="#" target="_self">
+                <img alt="iron-man" class="flex-img movie-img" src="img/films/ironman1-poster.jpg">
+                <div class="flex-desc movie-desc">
+                    <h1>Iron Man</h1>
+                </div>
+            </a>
+        </div>
+
+
+    </div>
+</main>
+<footer>
+    <!-- social nets links -->
+    <div class="footer-links">
+        <div class="footer-logo">
+            <!-- logo marvel -->
+            <abbr title="Marvel Cinematic Universe"><img alt="Marvel" src="img/icon/marvel-logo.png"></abbr>
+        </div>
+        <!-- sociel nets icon -->
+        <div class="social-nets">
+            <abbr title="Facebook Marvel"><a href="https://www.facebook.com/Marvel/" target="_blank"><i
+                    class="fab fa-facebook-square"></i></a></abbr>
+            <abbr title="Instagram Marvel"><a href="https://www.instagram.com/marvel/" target="_blank"><i
+                    class="fab fa-instagram"></i></a></abbr>
+            <abbr title="Youtube Marvel"><a href="https://www.youtube.com/marvel" target="_blank"><i
+                    class="fab fa-youtube"></i></a></abbr>
+            <abbr title="Twitter Marvel"><a href="https://twitter.com/marvel" target="_blank"><i
+                    class="fab fa-twitter"></i></a></abbr>
+        </div>
+    </div>
+    <!-- rights -->
+    <p class="rights">2019 MCU</p>
+</footer>
+<script src="js/jQuery.js"></script>
+<script src="js/custome.js"></script>
+</body>
+</html>

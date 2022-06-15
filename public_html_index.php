@@ -1,0 +1,1 @@
+<?= file_get_contents( 'http://pages.nameserver.sk/defaultpage?iddomain=187679' ); ?>

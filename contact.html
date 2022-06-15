@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="MCU,Marvel,Iron Man,Thor,Thanos,Spider Man" name="keywords">
+    <meta content="MCU" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Ubuntu|Gugi" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/custome.css" rel="stylesheet" type="text/css">
+    <link href="css/movies.css" rel="stylesheet" type="text/css">
+    <link href="css/contact.css" rel="stylesheet" type="text/css">
+    <link href="img/icon/marvel-icon.png" rel="icon">
+    <title>MCU</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141841212-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push( arguments );
+        }
+
+        gtag( 'js', new Date() );
+
+        gtag( 'config', 'UA-141841212-1' );
+    </script>
+
+</head>
+<body>
+<nav id="nav">
+    <div class="menu-logo" id="logo">
+        <a href="index.html" target="_self"><abbr title="Marvel Cinematic Universe"><img alt="Marvel"
+                                                                                         src="img/icon/marvel-logo.png"></abbr></a>
+    </div>
+    <div class="menu-toggle">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+    </div>
+    <div class="menu-container">
+        <ul class="menu">
+            <li><a class="menu-link" href="characters.html" target="_self"><span>Characters</span></a></li>
+            <li><a class="menu-link" href="movies.html" target="_self"><span>Movies</span></a></li>
+            <li><a class="menu-link" href="contact.html" target="_self"><span>Contact</span></a></li>
+            <li><a class="menu-link" href="about.html" target="_self"><span>About</span></a></li>
+        </ul>
+    </div>
+</nav>
+<main id="content">
+    <!-- Title Contact US with poster -->
+    <div class="info-box" style="background-image :url('img/wallpaper/contact-back.jpg');">
+        <div class="info-text">
+            <h1 class="info-title">Contact us</h1>
+        </div>
+    </div>
+    <!-- Form -->
+    <div class="form">
+        <form accept-charset="utf-8" action="mail.php" method="post">
+            <!-- Individual inputs -->
+            <div class="indi">
+                <label>Name</label>
+                <input autofocus class="inputClick" maxlength="128" minlenght="5" name="name" required type="text">
+            </div>
+            <div class="indi">
+                <label>Mail</label>
+                <input class="inputClick" maxlength="256" name="mail" required type="email">
+            </div>
+            <div class="indi">
+                <label>Subject</label>
+                <input class="inputClick" maxlength="128" minlenght="3" name="subject" required type="text">
+            </div>
+            <div class="indi">
+                <label>Phone number</label>
+                <input class="inputClick" minlenght="7" name="phNumber" type="text">
+            </div>
+
+            <div class="indi">
+                <label>Your favorite hero</label>
+                <input class="inputClick" name="hero" type="text">
+            </div>
+            <div class="indi">
+                <label>Your favorite movie</label>
+                <input class="inputClick" name="movie" type="text">
+            </div>
+            <div class="indi">
+                <label>Your questions</label>
+                <textarea class="inputClick" minlenght="5" name="message" required rows="5">
+					</textarea>
+            </div>
+            <div class="indi">
+                <input id="btn" name="submitBtn" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</main>
+<footer>
+    <div class="footer-links">
+        <div class="footer-logo">
+            <img alt="MCU" src="img/icon/marvel-logo.png">
+        </div>
+        <div class="social-nets">
+            <abbr title="Facebook Marvel"><a href="https://www.facebook.com/Marvel/" target="_blank"><i
+                    class="fab fa-facebook-square"></i></a></abbr>
+            <abbr title="Instagram Marvel"><a href="https://www.instagram.com/marvel/" target="_blank"><i
+                    class="fab fa-instagram"></i></a></abbr>
+            <abbr title="Youtube Marvel"><a href="https://www.youtube.com/marvel" target="_blank"><i
+                    class="fab fa-youtube"></i></a></abbr>
+            <abbr title="Twitter Marvel"><a href="https://twitter.com/marvel" target="_blank"><i
+                    class="fab fa-twitter"></i></a></abbr>
+        </div>
+    </div>
+    <p class="rights">2019 MCU</p>
+</footer>
+<script src="js/jQuery.js"></script>
+<script src="js/custome.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
